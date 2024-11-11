@@ -4,8 +4,6 @@ from django.shortcuts import render
 def index(request):
     return render(request,'index.html')
 
-def grid(request):
-    return render(request,'grids.html')
 
 def dashboard(request):
     return render(request,'myadmin/dashboard.html')

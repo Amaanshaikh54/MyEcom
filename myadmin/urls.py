@@ -22,7 +22,6 @@ from .views import *
 
 urlpatterns = [
     path('index', views.index, name='index'),
-    path('grid', views.grid, name='grid'),
     path('dashboard', views.dashboard, name='dashboard'),
     path('add_category', views.add_category, name='add_category'),
     path('all_category', views.all_category, name='all_category'),
