@@ -16,6 +16,14 @@
         <ul class="nav nav-pills nav-stacked custom-nav">
             <li class="active"><a href="{% url 'index' %}"><i
                         class="lnr lnr-power-switch"></i><span>Dashboard</span></a></li>
+                        <li class="menu-list">
+                            <a href="#"><i class="lnr lnr-cog"></i>
+                                <span>Category</span></a>
+                            <ul class="sub-menu-list">
+                                <li><a href="{% url 'grid' %}">View Category</a> </li>
+                                <li><a href="{% url 'add_category' %}">Add Category</a></li>
+                            </ul>
+                        </li>
             <li class="menu-list">
                 <a href="#"><i class="lnr lnr-cog"></i>
                     <span>Product</span></a>
