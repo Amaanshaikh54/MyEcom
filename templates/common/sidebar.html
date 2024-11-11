@@ -1,3 +1,4 @@
+{% load static %}
 <div class="left-side sticky-left-side">
 
     <!--logo and iconic logo start-->
@@ -13,13 +14,13 @@
 
         <!--sidebar nav start-->
         <ul class="nav nav-pills nav-stacked custom-nav">
-            <li class="active"><a href="/static/index.html"><i
+            <li class="active"><a href="{% url 'index' %}"><i
                         class="lnr lnr-power-switch"></i><span>Dashboard</span></a></li>
             <li class="menu-list">
                 <a href="#"><i class="lnr lnr-cog"></i>
                     <span>Product</span></a>
                 <ul class="sub-menu-list">
-                    <li><a href="grids.html">View Products</a> </li>
+                    <li><a href="{% url 'grid' %}">View Products</a> </li>
                     <li><a href="/static/widgets.html">Add Products</a></li>
                 </ul>
             </li>

@@ -6,3 +6,6 @@ def index(request):
 
 def grid(request):
     return render(request,'grids.html')
+
+def dashboard(request):
+    return render(request,'dashboard.html')

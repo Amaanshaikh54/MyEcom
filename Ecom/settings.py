@@ -24,6 +24,7 @@ SECRET_KEY = 'django-insecure-mup#9w9^9(8&u#&7#7@jomvldnun^orid4f#sujp+ngodry7zy
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+# DEBUG = False
 
 ALLOWED_HOSTS = []
 
